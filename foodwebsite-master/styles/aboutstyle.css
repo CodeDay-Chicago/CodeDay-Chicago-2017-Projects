@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#maintitle {
+  font-family: 'Contrail One' !important; /*this sets the font family to your browser's default sans font.*/
+  font-size: 100px; /*This sets the size of the text.*/
+  text-align: center; /*This centers the text in the element.*/
+}
+#slogan {
+  font-family: 'Zilla Slab Highlight' !important;
+  font-size: 30px; /*This sets the size of the text.*/
+  text-align: center; /*This centers the text in the element.*/
+}
+
+#issue {
+  font-family: 'Zilla Slab Highlight' !important;
+  font-size: 30px; /*This sets the size of the text.*/
+  text-align: center; /*This centers the text in the element.*/
+}
+
+#statistic{
+  font-family: 'Zilla Slab Highlight' !important;
+  font-size: 30px; /*This sets the size of the text.*/
+  text-align: center; /*This centers the text in the element.*/
+}

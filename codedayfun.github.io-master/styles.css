@@ -1,0 +1,312 @@
+body {
+    background-color: #AAB7B8;
+}
+
+#logo {
+  position: fixed;
+  left: 5px;
+  top: 50px;
+  left: 10px;
+width:250px;
+}
+
+#sidebar {
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  width: 250px;
+}
+
+#tab1 {
+  color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 30px;
+  top: 250px;
+  position: fixed;
+  left: 70px;
+}
+
+#tab2 {
+  color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 30px;
+  top: 350px;
+  position: fixed;
+  left: 70px;
+}
+
+#tab3 {
+  color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 30px;
+  top: 450px;
+  position: fixed;
+  left: 70px;
+}
+
+#para {
+  color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 25px;
+  top: 130px;
+  position: fixed;
+  left: 400px;
+}
+
+#para2 {
+  color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 25px;
+  top: 170px;
+  position: fixed;
+  left: 400px;
+}
+
+#para3 {
+  color: white;
+  font-family:'Barlow Semi Condensed', sans-serif;
+  font-size: 25px;
+  top: 300px;
+  position: fixed;
+  left: 400px;
+}
+
+#para4 {
+  color: white;
+  font-family:'Barlow Semi Condensed', sans-serif;
+  font-size: 37px;
+  top: 220px;
+  position: fixed;
+  left: 355px;
+}
+
+#playlist
+{
+  position: fixed;
+  left: 550px;
+  top:420px;
+}
+
+#train
+{
+   color: white;
+  font-family:'Barlow Semi Condensed', sans-serif;
+  font-size: 25px;
+  top: 550px;
+  position: fixed;
+  left: 355px;
+}
+
+#button {
+  font-size: 30px;
+  top: 750px;
+  position: fixed;
+  left: 1000px;
+}
+
+
+#title {
+  color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 50px;
+  top: 20px;
+  position: fixed;
+  left: 355px;
+}
+
+
+
+#whiterectangle
+{
+  border-style: solid;
+   border-width: 8px;
+  border-color: white;
+  height: 300px;
+  width: 700px;
+  position: fixed;
+  left: 400px;
+  top: 100px;
+}
+
+#costumelist {
+  list-style-type: circle;
+  font-size: 15px;
+  color:#FDFEFE;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  position: fixed;
+  top: 330px;
+
+  width: 800px;
+  left:350px;
+}
+
+#costumetitle{
+  font-size: 25px;
+  color:#FDFEFE;
+
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  position:fixed;
+  left: 350px;
+  top:250px;
+}
+
+
+#welcome
+{
+  color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 100px;
+  top: 50px;
+  position: fixed;
+  left: 650px;
+}
+
+
+#welcome2
+{
+  color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 60px;
+  top: 220px;
+  position: fixed;
+  left: 480px;
+}
+
+#titleslide {
+  font-size: 70px;
+  color:#FDFEFE;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  position: fixed;
+  left: 350px;
+  top:10px;
+}
+
+#list {
+  list-style-type: circle;
+  font-size: 15px;
+  color:#FDFEFE;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  position: fixed;
+  top:200px;
+  left:350px;
+}
+
+#begin {
+  font-size: 30px;
+  color:#FDFEFE;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  position: fixed;
+  left: 350px;
+  top:135px;
+}
+
+#click1 {
+  height: 80px;
+  position: fixed;
+  width: 250px;
+  top: 230px;
+
+}
+
+#click2 {
+  height: 80px;
+  position: fixed;
+  width: 250px;
+  top: 330px;
+
+}
+
+#click3 {
+  height: 80px;
+  position: fixed;
+  width: 250px;
+  top: 430px;
+
+}
+
+#metra
+{
+  position: absolute;
+  left: 620px;
+  top:640px;
+
+}
+
+#trainicon
+{
+  position: relative;
+  left: 550px;
+  top:640px;
+
+}
+
+#ig
+{
+  color: white;
+ font-family:'Barlow Semi Condensed', sans-serif;
+ font-size: 25px;
+ top: 700px;
+ position: fixed;
+ left: 355px;
+}
+
+#codingtitle {
+  color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 65px;
+  top: -10px;
+  position: fixed;
+  left: 400px;
+}
+#codegirlsimage {
+  position: fixed;
+  right: 4%;
+}
+
+#information1 {
+  font-size: 25px;
+  color:#FDFEFE;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  position: fixed;
+  left: 450px;px;
+  top:100px;
+}
+#information2 {
+  font-size: 30px;
+  font-weight: bold;
+  color:#FDFEFE;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  position: fixed;
+  left: 260px;px;
+  top:200px;
+}
+#informatio22 {
+  font-size: 20px;
+  color:#FDFEFE;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  position: fixed;
+  left: 260px;px;
+  top:250px;
+}
+#information3 {
+  font-weight: bold;
+  font-size: 30px;
+  color:#FDFEFE;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  position: fixed;
+  left: 260px;px;
+  top:390px;
+}
+#information4 {
+  font-size: 20px;
+  color:#FDFEFE;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  position: fixed;
+  left: 260px;px;
+  top:435px;
+
+}
+
+#click3:hover { background-color: 	#282828; }
+#click2:hover { background-color: 	#282828; }
+#click1:hover { background-color: 	#282828; }

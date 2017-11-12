@@ -1,0 +1,102 @@
+    <div class="modal fade" role="dialog" tabindex="-1" id="up-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">Upload to Diction Drive</h4></div>
+                <div class="modal-body">
+                    <div id="dropzone">
+                      <form action="/upload" method="post" class="dropzone" id="file-upload">
+                        <div class="dz-message needsclick">
+                          Drop files here or click to upload.
+                        </div>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="down-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">Download Your File</h4></div>
+                <div class="modal-body">
+                    <div class="form-group has-feedback"><i class="form-control-feedback glyphicon glyphicon-star" aria-hidden="true"></i>
+                      <input class="form-control" type="text" id="keyWord-download" placeholder="Enter your keyword" autocomplete="off">
+                      <p class="help-block">Please enter the keyword you recieved after uploading your file.</p>
+                    </div>
+                    <a href="" class="btn btn-primary" id="downloadSubmit">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-bs-parallax-bg="true" style="height:100vh;background-image:url(/images/bg.jpg);background-position:center;background-size:cover;">
+        <div class="alert alert-success" role="alert" id="keywordAlert" style="margin-bottom:-50px;height:50px;" hidden="true">
+            <span>Upload successful. Your keyword is <span class="text-uppercase" id="keywordAlertText">keyword </span></span>
+        </div>
+        <div class="container hero">
+            <div class="row" style="margin-top:50px;">
+                <div class="col-md-12 get-it text-center" style:"position=absolute">
+                    <h1 class="text-center" style="font-size:5em;margin-bottom:19px;">DictionDrive </h1>
+                    <p class="lead text-center"> Minimulm hassle, Maximum fast</p>
+                    <p class="text-center">
+                        <button class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#up-modal">Upload </button>
+                        <button class="btn btn-success btn-lg" type="button" data-toggle="modal" data-target="#down-modal">Download </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <section class="testimonials">
+        <h2 class="text-center">What is DictionDrive?</h2>
+        <p class="text-center">DictionDrive is a quick and easy file transport service. When you upload a file to Diction Drive, you are given a keyword which you can enter into the site from any computer to access your file. Diction Drive does not use passwords, and is the fastest way to transport files.</p>
+    </section>
+  </div>
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Fantastic Features</h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="row icon-features">
+                        <div class="col-xs-4 icon-feature"><i class="glyphicon glyphicon-download-alt"></i>
+                            <p>Easy Access</p>
+                        </div>
+                        <div class="col-xs-4 icon-feature"><i class="glyphicon glyphicon-user"></i>
+                            <p>No Login</p>
+                        </div>
+                        <div class="col-md-offset-0 col-xs-4 icon-feature"><i class="glyphicon glyphicon-cloud"></i>
+                            <p>Simple Upload</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="team-clean">
+        <div class="container">
+            <div class="intro"></div>
+            <div class="row people">
+                <div class="col-md-3 col-sm-6 item"><img class="img-circle" src="/images/jack.jpg">
+                    <h3 class="name">Jack</h3>
+                    <p class="title">Backend</p>
+                </div>
+                <div class="col-md-3 col-sm-6 item"><img class="img-circle" src="/images/arshad.jpg">
+                    <h3 class="name">Arshad</h3>
+                    <p class="title">Frontend</p>
+                  </div>
+                <div class="col-md-3 col-sm-6 item"><img class="img-circle" src="/images/gabe.jpg">
+                    <h3 class="name">Gabe </h3>
+                    <p class="title">Artist </p>
+                  </div>
+                <div class="col-md-3 col-sm-6 item"><img class="img-circle" src="/images/emet.jpg">
+                    <h3 class="name">Emet </h3>
+                    <p class="title">Product Design</p>
+                  </div>
+            </div>
+        </div>
+    </div>

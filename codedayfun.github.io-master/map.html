@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Simple markers</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+      function initMap() {
+        var myLatLng = {lat: 41.8781, lng: -87.6298};
+		var unionstation = {lat: 41.8787, lng: -87.6403};
+        var ogilbe = {lat: 41.8830, lng: -87.6405};
+        var vanburen = {lat: 41.8775, lng: -87.6272};
+        var millenium = {lat: 41.8844, lng: -87.6247};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: unionstation,
+          map: map,
+          title: 'Union Station'
+        });
+         var marker = new google.maps.Marker({
+          position: ogilbe,
+          map: map,
+          title: 'Ogilvie Station'
+        });
+          var marker = new google.maps.Marker({
+          position: millenium,
+          map: map,
+          title: 'Millenium Station'
+        });
+                  var marker = new google.maps.Marker({
+          position: vanburen,
+          map: map,
+          title: 'Van Buren Station'
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLbFFgESBrryxX1oysPcg57Mp8WkirCVY&callback=initMap">
+    </script>
+
+
+  </body>
+</html>
